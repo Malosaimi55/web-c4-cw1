@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Fredoka:wght@300;400&display=swap');
+h1{
+    font-family: 'Amiri', serif;
+font-family: 'Fredoka', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin:bottom;
+}
+
+.container{
+    display:flex;
+    background-color:blue;
+    width: 550px;
+    height: 550px;
+    flex-wrap: wrap;
+    margin: auto;
+    Justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    
+}
+.card{
+    display: flex;
+    background-color: brown;
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 100px;
+    transition: width 1s, height 1s;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 20px;
+}
+.card:hover{
+    width: 1.45em;
+    height: 1.45em;
+    
+}
+.button:hover{
+   transition: width 2s, height 2s;
+   width: 1.4em;
+   height: 1.4em;
+   position:static;
+}
+.button{
+    width: 10px;
+    height:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
